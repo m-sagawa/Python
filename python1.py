@@ -35,8 +35,7 @@ else:
 print('‚ ‚È‚½‚Íu', result, 'v‚Å‚·B')
 
 print('\n‰Û‘è4')
-borrow = 250000
-remain = borrow
+remain = 250000
 repay = 30000
 inte = 14.0 / 12
 month = 1;
