@@ -49,19 +49,3 @@ while remain != 0:
 	else:
 		print(month, '‚©Œ–ÚF•ÔÏŠz=', repay, '‰~,c‚è', remain, '‰~')
 		month += 1
-
-print('\n‰Û‘è4')
-borrow = 250000
-remain = borrow
-repay = 30000
-inte = borrow * (0.14 / 12)
-month = 1;
-while remain != 0:
-	remain = remain + inte
-	remain = remain - repay
-	if remain < repay:
-		print(month, '‚©Œ–ÚF•ÔÏŠz=', remain, '‰~,•ÔÏŠ®—¹B')
-		remain = 0
-	else:
-		print(month, '‚©Œ–ÚF•ÔÏŠz=', repay, '‰~,c‚è', remain, '‰~')
-		month += 1
