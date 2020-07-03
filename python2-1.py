@@ -1,0 +1,15 @@
+# -*- coding: Shift-JIS -*-
+
+print('‰Û‘è1')
+
+def time(speed, distance):
+	time = distance / speed
+	return time
+
+print('‘¬“x‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢')
+speed = int(input())
+
+print('‹——£‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢')
+distance = int(input())
+
+print('ŽžŠÔ‚Í', time(speed, distance), '‚Å‚·')
