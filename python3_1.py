@@ -1,0 +1,15 @@
+# -*- coding: Shift-JIS -*-
+
+print('‰Û‘è1')
+
+class MP3Player:
+	def __init__(self):
+		pass
+	def play_music(self):
+		print('‰¹Šy‚ğÄ¶‚µ‚Ü‚·')
+	def next_song(self):
+		print('Ÿ‚Ì‹È‚ğÄ¶‚µ‚Ü‚·')
+	def precious_song(self):
+		print('‘O‚Ì‹È‚ğÄ¶‚µ‚Ü‚·')
+	def stop_music(self):
+		print('‰¹Šy‚ğ~‚ß‚Ü‚·')
