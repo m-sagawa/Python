@@ -1,0 +1,12 @@
+# -*- coding: Shift-JIS -*-
+
+print('‰Û‘è3')
+
+class CellPhone:
+	def __init__(self, tel_number, mail_address):
+		self.tel_number = tel_number
+		self.mail_address = mail_address
+	def call(self):
+		print(self.tel_number, '‚©‚ç”­M‚µ‚Ü‚·')
+	def send_mail(self):
+		print(self.mail_address, '‚©‚ç‘—M‚µ‚Ü‚·')
